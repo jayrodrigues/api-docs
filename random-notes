@@ -1,0 +1,6 @@
+
+device_os         | string |          | remove from db
+device_model      | string |          | remove from db
+
+
+POST /auth/users/{id} does not work
