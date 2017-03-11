@@ -43,7 +43,7 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 ### Device
 
-- [**`POST`** /add_this_device](authentication/add_this_device.md)
+- [**`POST`** /devices](authentication/add_this_device.md)
 
 ### Tracks
 

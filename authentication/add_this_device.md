@@ -5,7 +5,7 @@ This endpoint is to be used to add new device and get unique device id. and this
 ## Resource
 
 ```
-POST /add_this_device
+POST /devices
 ```
 
 ## Parameters
