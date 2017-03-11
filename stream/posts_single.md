@@ -5,7 +5,7 @@ This endpoint is to be retrieve details of a post with total like comment count.
 ## Resource
 
 ```
-GET /post_details/{user_id}/{post_id}
+GET /posts/{user_id}/{post_id}
 ```
 
 ## Parameters
@@ -22,7 +22,7 @@ post_id       | int  | yes      | ID of the post.
 --------------------------------------------------------------------------------
 
 ```curl
-curl 'http://api.monctonhomeshow.engageitapp.com/v1/post_details/8/1'
+curl 'http://api.monctonhomeshow.engageitapp.com/v1/posts/8/1'
 ```
 
 ### Response

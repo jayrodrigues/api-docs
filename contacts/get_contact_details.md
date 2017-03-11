@@ -5,7 +5,7 @@ This endpoint will retrieve information about a contact by email.
 ## Resource
 
 ```
-POST /get_contact_details/{user_id}
+GET /contacts/{user_id}/{email}
 ```
 
 ## Parameters
@@ -13,11 +13,7 @@ POST /get_contact_details/{user_id}
 URI Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :-----------------------------------------------------------------------------------
 user_id       | string | yes      | User ID to get details
-
-POST Parameter | Type   | Required | Description
-:------------  | :----- | :------- | :-----------------------------------------------------------------------------------
 email          | string | yes      |
-
 
 ## Example
 

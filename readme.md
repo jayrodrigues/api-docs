@@ -28,18 +28,22 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 ### Users
 
-- [**`POST`** /user/create_profile](users/create_profile.md)
+- [**`POST`** /user/create_profile/{unique_device_id}](users/create_profile.md)
 - [**`POST`** /user/update_profile/{user_id}](users/update_profile.md)
 - [**`GET`** /auth/user/{user_id}](users/user_details.md)
 
 ### Contacts
 
-- [**`POST`** /get_contact_details/{user_id}](contacts/get_contact_details.md)
+- [**`GET`** /contacts/{user_id}/{email}](contacts/get_contact_details.md)
 - [**`POST`** /contacts/{id}](contacts/update.md)
 
 ### Authentication
 
 - [**`POST`** /auth/login (for exhibitor login)](authentication/login.md)
+
+### Device
+
+- [**`POST`** /add_this_device](authentication/add_this_device.md)
 
 ### Tracks
 
@@ -51,7 +55,7 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 ### Streaming
 
 - [**`GET`** /posts/{user_id}](/stream/posts.md)
-- [**`GET`** /post_details/{user_id}/{post_id}](stream/posts_single.md)
+- [**`GET`** /posts/{user_id}/{post_id}](stream/posts_single.md)
 - [**`POST`** /posts/{user_id}](stream/posts_create.md)
 - [**`PUT`** /posts/{post_id}](stream/posts_update.md)
 - [**`POST`** /posts/comment/{user_id}](stream/post_comment.md)

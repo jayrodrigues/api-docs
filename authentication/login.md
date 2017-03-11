@@ -12,12 +12,12 @@ POST /auth/login
 
 ## Parameters
 
-URI Parameter     | Type   | Required | Description
+POST Parameter     | Type   | Required | Description
 :---------------- | :----- | :------- | :----------------------------
 email             | string | yes      |
 password          | string | yes      |
-device_identifier | string | no       |
-device_type       | int    | no       | 0 = iOS; 1 = Android (verify)
+unique_device_id  | string | yes      | given unique_device_id on new device creation.
+
 
 ## Example
 
