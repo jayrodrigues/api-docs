@@ -1,11 +1,11 @@
-# Get single Session
+# Get single Tracks
 
-This endpoint is to be retrieve one session details by session id.
+This endpoint is to be retrieve one track details by track id.
 
 ## Resource
 
 ```
-GET /sessions/{id}
+GET /tracks/{id}
 ```
 
 ## Parameters
@@ -21,7 +21,7 @@ id            | int  | yes      | ID of the session
 --------------------------------------------------------------------------------
 
 ```curl
-curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/sessions/1'
+curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/tracks/1'
 ```
 
 ### Response
@@ -37,23 +37,14 @@ Record found
   "status_code": 200,
   "data": {
     "id": 1,
-    "title": "Test sessions",
-    "survey_url": null,
-    "abstract": "",
-    "track_title": null,
-    "location": "",
-    "attachments": "",
-    "session_date": "0000-00-00",
-    "start_time": "00:00:00",
-    "speaker_id": null,
-    "speaker_name": null,
-    "speaker_picture": null,
-    "speaker_company": null
+    "title": "Marketing update",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "date_time": 1489250259
   }
 }
 ```
 
-Record Not found (If given session id not exists in database)
+Record Not found (If given track id not exists in database)
 
 **Status-Code:** `200 OK`
 

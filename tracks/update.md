@@ -1,27 +1,23 @@
-# Create Sessions
+# Update
 
-This endpoint is to be used to create a session entry.
+This endpoint is to be used to update a track entry.
 
 ## Resource
 
 ```
-POST /sessions/{id}
+POST /tracks/{id}
 ```
 
 ## Parameters
 
+URI Parameter | Type | Required | Description
+:------------ | :--- | :------- | :----------
+id            | int  | yes      | ID of the track
+
 POST Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :----------
 title         | string | yes      |
-speaker_id    | int    | yes      | Given ID Should exists as speaker
-track_id      | int    | no       | Tracks table id
-session_date  | date   | no       | 2017-03-09
-start_time    | time   | no       | 02:08:00
-end_time      | time   | no       | 05:08:00
-location      | string | no       |
-abstract      | string | no       |
-survey_url    | string | no       |
-attachments   | file   | no       |
+description   | text   | yes      |
 
 ## Example
 
@@ -36,14 +32,14 @@ curl ''
 ### Response
 
 --------------------------------------------------------------------------------
-Created successfully
+Updated successfully
 
 **Status-Code:** `200 OK`
 
 ```json
 {
-  "message": "Your changes have been updated successfully",
-  "status_code": 200
+  "message": "Your changes have been saved successfully",
+  "status_code": 200,
 }
 ```
 
@@ -56,34 +52,12 @@ Validation Error
 
 ```json
 {
-  "message": "Can't update record",
+  "message": "Can't create new record",
   "errors": {
     "title": [
       "The title field is required."
     ]
   },
   "status_code": 422
-}
-```
-
-Can't upload attachments
-
-**Status-Code:** `500 Internal Server Error`
-
-```json
-{
-  "message": "The target directory `uploads/sessions` does not exists or is not writable",
-  "status_code": 500
-}
-```
-
-Unsupported Media Type
-
-**Status-Code:** `415 Unsupported Media Type`
-
-```json
-{
-  "message": "Please upload a valid file (pdf/doc/xlxs/xls/csv/png/jpeg/gif)",
-  "status_code": 415
 }
 ```

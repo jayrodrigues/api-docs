@@ -1,11 +1,11 @@
-# List all Sessions
+# List all Tracks
 
-This endpoint is to be retrieve a list of all sessions.
+This endpoint is to be retrieve a list of all tracks.
 
 ## Resource
 
 ```
-GET /sessions
+GET /tracks
 ```
 
 ## Parameters
@@ -21,7 +21,7 @@ URI Parameter | Type | Required | Description
 --------------------------------------------------------------------------------
 
 ```curl
-curl 'http://api.monctonhomeshow.engageitapp.com/v1/sessions'
+curl 'http://api.monctonhomeshow.engageitapp.com/v1/tracks'
 ```
 
 ### Response
@@ -37,22 +37,10 @@ Record found
   "status_code": 200,
   "data": [
     {
-      "id": 1,
-      "title": "Test sessions",
-      "survey_url": null,
-      "abstract": "",
-      "track_id": null,
-      "speaker_id": null,
-      "duration": 0,
-      "location": "",
-      "attachments": "",
-      "description": null,
-      "end_time": null,
-      "session_date": "0000-00-00",
-      "start_time": "00:00:00",
-      "date_time": 1489242062,
-      "track_title": null,
-      "speaker_name": null
+      "id": "1",
+      "title": "Marketing update",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "date_time": "2017-03-11 16:37:39"
     }
   ]
 }
