@@ -46,4 +46,4 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`POST`** /post_update/{post_id}](stream/posts_update.md)
 - [**`POST`** /posts_comment/{user_id}](stream/posts_comment.md)
 - [**`POST`** /post_comment_update/{post_id}](stream/posts_comment_update.md)
-- [**`POST`** /tracks/{id}](tracks/update.md)
+- [**`POST`** /post_comment_delete/{post_id}](stream/posts_comment_delete.md)
