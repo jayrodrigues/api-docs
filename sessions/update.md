@@ -1,6 +1,6 @@
-# Create Sessions
+# Update Sessions
 
-This endpoint is to be used to create a session entry.
+This endpoint is to be used to update a session entry.
 
 ## Resource
 

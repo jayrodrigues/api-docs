@@ -35,6 +35,7 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 ### Contacts
 
 - [**`POST`** /get_contact_details/{user_id}](contacts/get_contact_details.md)
+- [**`POST`** /contacts/{id}](contacts/update.md)
 
 ### Authentication
 
@@ -52,9 +53,8 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`GET`** /posts/{user_id}](/stream/posts.md)
 - [**`GET`** /post_details/{user_id}/{post_id}](stream/posts_single.md)
 - [**`POST`** /posts/{user_id}](stream/posts_create.md)
-- [**`POST`** /posts/update/{post_id}](stream/posts_update.md)
+- [**`PUT`** /posts/{post_id}](stream/posts_update.md)
 - [**`POST`** /posts/comment/{user_id}](stream/post_comment.md)
-- [**`POST`** /posts/comment/update/{user_id}](stream/post_comment_update.md)
-- [**`POST`** /posts/comment/delete/{user_id}/{post_id}](stream/post_comment_delete.md)
-- [**`POST`** /plus_like/{user_id}/{post_id}](stream/plus_like.md)
-- [**`POST`** /minus_like/{user_id}/{post_id}](stream/minus_like.md)
+- [**`PUT`** /posts/comment/{user_id}](stream/post_comment_update.md)
+- [**`DELETE`** /posts/comment/{user_id}/{post_id}](stream/post_comment_delete.md)
+- [**`POST`** /posts/rating/{user_id}/{post_id}/{rating}](stream/rating.md)

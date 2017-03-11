@@ -1,11 +1,11 @@
-# delete a comment for a post
+# Like unlike any post
 
-This endpoint is to be used to delete a comment for a post. To inactive a comment use /post_comment_update/{user_id} endpoint
+This endpoint is to be used to like/unlike any post.
 
 ## Resource
 
 ```
-DELETE /posts/comment/{user_id}/{post_id}
+POST /posts/rating/{user_id}/{post_id}/{rating}
 ```
 
 ## Parameters
@@ -14,6 +14,7 @@ URI Parameter | Type | Required | Description
 :------------ | :--- | :------- | :----------
 user_id       | int  | yes      | ID of the current user.
 post_id       | int  | yes      | Post ID.
+rating        | string  | yes   | like or unlike
 
 ## Example
 
@@ -28,16 +29,30 @@ curl ''
 ### Response
 
 --------------------------------------------------------------------------------
-Created successfully
+like added successfully
 
 **Status-Code:** `200 OK`
 
 ```json
 {
-  "message": "Comment deleted successfully",
+  "message": "You liked the post",
+  "status_code": 200,
+  "data": {
+    "status": 1,
+    "post_id": "1",
+    "user_id": "8",
+    "date_time": 1489255778,
+    "id": 1
+  }
+}
+
+{
+  "message": "You unliked the post",
   "status_code": 200,
   "data": true
 }
+
+
 ```
 
 ### Error Responses
@@ -49,7 +64,17 @@ Validation Error
 
 ```json
 {
-  "message": "Can't delete the record",
+  "message": "Post not found to like",
   "status_code": 400
+}
+
+{
+  "message": "No like found to unlike",
+  "status_code": 200,
+}
+
+{
+  "message": "You already like the post",
+  "status_code": 200,
 }
 ```
