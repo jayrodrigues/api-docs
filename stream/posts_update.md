@@ -5,7 +5,7 @@ This endpoint is to be used to update a post.
 ## Resource
 
 ```
-POST /post_update/{post_id}
+POST /posts/update/{post_id}
 ```
 
 ## Parameters

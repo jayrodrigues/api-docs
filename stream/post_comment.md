@@ -5,7 +5,7 @@ This endpoint is to be used to create new comment for a post.
 ## Resource
 
 ```
-POST /post_comment/{user_id}
+POST /posts/comment/{user_id}
 ```
 
 ## Parameters

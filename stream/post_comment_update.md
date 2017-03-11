@@ -5,7 +5,7 @@ This endpoint is to be used to update a comment for a post.
 ## Resource
 
 ```
-POST /post_comment_update/{user_id}
+POST /posts/comment/update/{user_id}
 ```
 
 ## Parameters

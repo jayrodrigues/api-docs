@@ -1,6 +1,8 @@
 # Login
 
-The registration endpoint is used to login into existing user accounts.
+This endpoint is to be used to login for exhibitor with lead_retrieval yes only.
+
+This endpoint will first try to login from local db if password not exist or can't login will try to login from tieit if succeed will sync user details, company details, Groups details from tieit to conf db.
 
 ## Resource
 
@@ -16,8 +18,6 @@ email             | string | yes      |
 password          | string | yes      |
 device_identifier | string | no       |
 device_type       | int    | no       | 0 = iOS; 1 = Android (verify)
-device_os         | string | no       | remove from db
-device_model      | string | no       | remove from db
 
 ## Example
 

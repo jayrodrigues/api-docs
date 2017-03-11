@@ -5,7 +5,7 @@ This endpoint is to be used to delete a comment for a post. To inactive a commen
 ## Resource
 
 ```
-POST /post_comment_delete/{user_id}/{post_id}
+POST /posts/comment/delete/{user_id}/{post_id}
 ```
 
 ## Parameters
