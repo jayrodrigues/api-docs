@@ -5,10 +5,13 @@ This endpoint is to be used to create new user profile (Without login details).
 ## Resource
 
 ```
-POST /user/create_profile
+PUT /users/profile/{user_id}
 ```
 
 ## Parameters
+URI Parameter | Type | Required | Description
+:------------ | :--- | :------- | :----------
+user_id       | int  | yes      | User ID of users table
 
 POST Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :----------

@@ -2,6 +2,7 @@
 
 This endpoint is to be used to create new exhibitor by admin. This endpoint will create exhibitor and also create a user with that email address then will send a special code to used email. So, that exhibitor can use that code to login and sync there tieit data into conf app
 
+login required. request with JWT token in header
 ## Resource
 
 ```

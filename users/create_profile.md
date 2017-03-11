@@ -5,10 +5,13 @@ This endpoint is to be used to create new user profile (Without login details).
 ## Resource
 
 ```
-POST /user/create_profile
+POST /users/profile/{unique_device_id}
 ```
 
 ## Parameters
+URI Parameter | Type | Required | Description
+:------------ | :--- | :------- | :----------
+unique_device_id| string  | yes      | unique id given on new device add by /add_this_device
 
 POST Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :----------

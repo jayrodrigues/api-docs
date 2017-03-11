@@ -12,7 +12,7 @@ POST /auth/users
 
 URI Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :-----------------------------------------------------------------------------------
-token         | string | yes      | Use the JWT token returned after successfully successfully logging into the account.
+token         | string | yes      | Use the JWT token returned after successfully logging into the account.
 
 ## Example
 

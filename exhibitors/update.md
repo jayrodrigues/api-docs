@@ -2,6 +2,7 @@
 
 This endpoint is to be used to update exhibitor(vendor) table data only
 
+login required. request with JWT token in header
 ## Resource
 
 ```
