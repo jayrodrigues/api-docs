@@ -1,6 +1,6 @@
 # Get All Speakers
 
-This endpoint is to be used to get a list of all speakers.
+This endpoint is to be used to get a list of all Speakers.
 
 ## Resource
 
@@ -29,6 +29,8 @@ curl -X GET "http://api.monctonhomeshow.engageitapp.com/v1/speakers"
 --------------------------------------------------------------------------------
 
 **Status-Code:** `200 OK`
+
+Record Found
 
 ```json
 {
@@ -73,14 +75,18 @@ curl -X GET "http://api.monctonhomeshow.engageitapp.com/v1/speakers"
 }
 ```
 
-### Error Responses
 
---------------------------------------------------------------------------------
+Record Not found
 
-**Status-Code:** `400 Title Required`
+**Status-Code:** `200 OK`
 
 ```json
 {
-    "": ""
+  "message": "No record found",
+  "status_code": 200
 }
 ```
+
+### Error Responses
+
+--------------------------------------------------------------------------------

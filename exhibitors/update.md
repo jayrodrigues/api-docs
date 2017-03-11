@@ -10,10 +10,6 @@ POST /sessions/{id}
 
 ## Parameters
 
-URI Parameter | Type | Required | Description
-:------------ | :--- | :------- | :----------
-id            | int  | yes      | ID of the session
-
 POST Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :----------
 title         | string | yes      |

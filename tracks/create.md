@@ -5,14 +5,10 @@ This endpoint is to be used to create a session entry.
 ## Resource
 
 ```
-POST /sessions/{id}
+POST /sessions
 ```
 
 ## Parameters
-
-URI Parameter | Type | Required | Description
-:------------ | :--- | :------- | :----------
-id            | int  | yes      | ID of the session
 
 POST Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :----------
@@ -46,8 +42,20 @@ Created successfully
 
 ```json
 {
-  "message": "Your changes have been updated successfully",
-  "status_code": 200
+  "message": "Created successfully",
+  "status_code": 200,
+  "data": {
+    "title": "Test sessions 2",
+    "track_id": "1",
+    "survey_url": "https://github.com",
+    "abstract": "Little info about session",
+    "location": "center hall",
+    "session_date": "2017-03-09",
+    "start_time": "",
+    "end_time": "",
+    "date_time": 1489242853,
+    "id": 3
+  }
 }
 ```
 
@@ -60,7 +68,7 @@ Validation Error
 
 ```json
 {
-  "message": "Can't update record",
+  "message": "Can't create new record",
   "errors": {
     "title": [
       "The title field is required."

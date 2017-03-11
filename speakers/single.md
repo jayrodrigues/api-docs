@@ -5,7 +5,7 @@ This endpoint is to be used to get details about a speaker.
 ## Resource
 
 ```
-GET /speaker/{id}
+GET /speakers/{id}
 ```
 
 ## Parameters
@@ -53,14 +53,16 @@ curl -X GET "http://api.monctonhomeshow.engageitapp.com/v1/speakers/1"
 }
 ```
 
-### Error Responses
+Record Not found
 
---------------------------------------------------------------------------------
-
-**Status-Code:** `400 Title Required`
+**Status-Code:** `200 OK`
 
 ```json
 {
-    "": ""
+  "message": "No record found",
+  "status_code": 200
 }
 ```
+### Error Responses
+
+--------------------------------------------------------------------------------
