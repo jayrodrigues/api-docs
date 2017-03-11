@@ -41,9 +41,11 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 ### Streaming
 
 - [**`GET`** /posts/{user_id}](/stream/posts.md)
-- [**`GET`** /post_details/{post_id}](stream/posts_single.md)
+- [**`GET`** /post_details/{user_id}/{post_id}](stream/posts_single.md)
 - [**`POST`** /posts/{user_id}](stream/posts_create.md)
 - [**`POST`** /post_update/{post_id}](stream/posts_update.md)
-- [**`POST`** /posts_comment/{user_id}](stream/posts_comment.md)
-- [**`POST`** /post_comment_update/{post_id}](stream/posts_comment_update.md)
-- [**`POST`** /post_comment_delete/{post_id}](stream/posts_comment_delete.md)
+- [**`POST`** /post_comment/{user_id}](stream/post_comment.md)
+- [**`POST`** /post_comment_update/{post_id}](stream/post_comment_update.md)
+- [**`POST`** /post_comment_delete/{user_id}/{post_id}](stream/post_comment_delete.md)
+- [**`POST`** /plus_like/{user_id}/{post_id}](stream/plus_like.md)
+- [**`POST`** /minus_like/{user_id}/{post_id}](stream/minus_like.md)

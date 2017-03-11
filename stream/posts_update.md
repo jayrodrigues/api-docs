@@ -1,6 +1,6 @@
-# Create New posts
+# Update post
 
-This endpoint is to be used to create new post.
+This endpoint is to be used to update a post.
 
 ## Resource
 

@@ -1,4 +1,4 @@
-# List all Tracks
+# List all Posts
 
 This endpoint is to be retrieve a post details with total like comment count.
 
