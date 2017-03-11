@@ -52,6 +52,13 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`POST`** /tracks](tracks/create.md)
 - [**`POST`** /tracks/{id}](tracks/update.md)
 
+### Companies
+
+- [**`GET`** /companies](/companies/all.md)
+- [**`GET`** /companies/{id}](companies/single.md)
+- [**`POST`** /companies](companies/create.md)
+- [**`POST`** /companies/{id}](companies/update.md)
+
 ### Streaming
 
 - [**`GET`** /posts/{user_id}](/stream/posts.md)
@@ -62,3 +69,11 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`PUT`** /posts/comment/{user_id}](stream/post_comment_update.md)
 - [**`DELETE`** /posts/comment/{user_id}/{post_id}](stream/post_comment_delete.md)
 - [**`POST`** /posts/rating/{user_id}/{post_id}/{rating}](stream/rating.md)
+
+### Exhibitors
+
+- [**`GET`** /exhibitors](/exhibitors/all.md)
+- [**`GET`** /exhibitors/{id}](/exhibitors/single.md)
+- [**`GET`** /exhibitors/retrieve_code/{email}](/exhibitors/retrieve_code.md)
+- [**`POST`** /exhibitors](exhibitors/create.md)
+- [**`POST`** /exhibitors/{id}](exhibitors/update.md)

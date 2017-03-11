@@ -1,18 +1,18 @@
-# Get single Session
+# Get single exhibitor
 
-This endpoint is to be retrieve one session details by session id.
+This endpoint is to be retrieve one exhibitor details by exhibitor id.
 
 ## Resource
 
 ```
-GET /sessions/{id}
+GET /exhibitors/{id}
 ```
 
 ## Parameters
 
 URI Parameter | Type | Required | Description
 :------------ | :--- | :------- | :----------
-id            | int  | yes      | ID of the session
+id            | int  | yes      | ID of the exhibitor
 
 ## Example
 
@@ -21,7 +21,7 @@ id            | int  | yes      | ID of the session
 --------------------------------------------------------------------------------
 
 ```curl
-curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/sessions/1'
+curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/exhibitors/1'
 ```
 
 ### Response
@@ -36,19 +36,29 @@ Record found
   "message": "Data found",
   "status_code": 200,
   "data": {
-    "id": 1,
-    "title": "Test sessions",
-    "survey_url": null,
-    "abstract": "",
-    "track_title": null,
-    "location": "",
+    "id": 9,
+    "company_id": 52,
+    "description": null,
+    "sponsor_level": 3,
+    "location": null,
+    "promotional_image": "",
     "attachments": "",
-    "session_date": "0000-00-00",
-    "start_time": "00:00:00",
-    "speaker_id": null,
-    "speaker_name": null,
-    "speaker_picture": null,
-    "speaker_company": null
+    "lead_retrieval": 1,
+    "mobile_app_sponsor": 0,
+    "is_exhibitor": 1,
+    "access_code": "44a24",
+    "user_id": 8,
+    "date_time": "1970-01-01 00:00:00",
+    "sm_twitter": null,
+    "sm_facebook": null,
+    "sm_google": null,
+    "sm_instagram": null,
+    "company_website": null,
+    "company_phone": null,
+    "comapny_email": null,
+    "comapny_logo": null,
+    "company_name": null,
+    "users": []
   }
 }
 ```
