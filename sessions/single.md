@@ -1,6 +1,6 @@
-# Get Detail about a specific Session
+# Get single Session
 
-This endpoint is to be retrieve information about a specific session.
+This endpoint is to be retrieve one session details by session id.
 
 ## Resource
 
@@ -11,7 +11,7 @@ GET /sessions/{id}
 ## Parameters
 
 URI Parameter | Type | Required | Description
-:------------ | :--- | :------- | :----------------
+:------------ | :--- | :------- | :----------
 id            | int  | yes      | ID of the session
 
 ## Example
@@ -20,13 +20,14 @@ id            | int  | yes      | ID of the session
 
 --------------------------------------------------------------------------------
 
-````curl
-curl -X GET "https://api.engageitapp.com/monctonhomeshow2017/sessions/12"
+```curl
+curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/sessions/1'
 ```
 
 ### Response
 
 --------------------------------------------------------------------------------
+Record found
 
 **Status-Code:** `200 OK`
 
@@ -35,23 +36,33 @@ curl -X GET "https://api.engageitapp.com/monctonhomeshow2017/sessions/12"
   "message": "Data found",
   "status_code": 200,
   "data": {
-    "id": 2,
-    "title": "Registration",
-    "survey_url": "",
+    "id": 1,
+    "title": "Test sessions",
+    "survey_url": null,
     "abstract": "",
     "track_title": null,
-    "location": "Palms Foyer",
+    "location": "",
     "attachments": "",
-    "session_date": "2016-11-13",
-    "start_time": "18:00:00",
+    "session_date": "0000-00-00",
+    "start_time": "00:00:00",
     "speaker_id": null,
     "speaker_name": null,
     "speaker_picture": null,
     "speaker_company": null
   }
 }
-````
+```
 
+Record Not found (If given session id not exists in database)
+
+**Status-Code:** `200 OK`
+
+```json
+{
+  "message": "No record found",
+  "status_code": 200
+}
+```
 ### Error Responses
 
 --------------------------------------------------------------------------------
