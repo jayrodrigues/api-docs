@@ -15,9 +15,9 @@ POST Parameter | Type   | Required | Description
 title         | string | yes      |
 speaker_id    | int    | yes      | Given ID Should exists as speaker
 track_id      | int    | no       | Tracks table id
-session_date  | date   | no       |
-start_time    | time   | no       |
-end_time      | time   | no       |
+session_date  | date   | no       | 2017-03-09
+start_time    | time   | no       | 02:08:00
+end_time      | time   | no       | 05:08:00
 location      | string | no       |
 abstract      | string | no       |
 survey_url    | string | no       |
