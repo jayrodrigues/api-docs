@@ -5,10 +5,14 @@ This endpoint is to be retrieve a post details with total like comment count.
 ## Resource
 
 ```
-GET /posts
+GET /posts/{user_id}
 ```
 
 ## Parameters
+
+URI Parameter | Type | Required | Description
+:------------ | :--- | :------- | :----------
+post_id       | int  | yes      | ID of the post.
 
 ## Example
 
@@ -17,7 +21,7 @@ GET /posts
 --------------------------------------------------------------------------------
 
 ```curl
-curl 'http://api.monctonhomeshow.engageitapp.com/v1/posts'
+curl 'http://api.monctonhomeshow.engageitapp.com/v1/posts/1'
 ```
 
 ### Response
@@ -54,7 +58,8 @@ Record found
       "sponsor_post_company_name": null,
       "sponsor_company_logo": null,
       "total_like": 1,
-      "total_comment": 2
+      "total_comment": 2,
+      "is_like": 1
     }
   ]
 }
