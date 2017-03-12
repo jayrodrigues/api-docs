@@ -34,44 +34,43 @@ Record Found
 
 ```json
 {
-    "message": "Data found",
-    "status_code": 200,
-    "data": [
+  "message": "Data found",
+  "status_code": 200,
+  "data": [
+    {
+      "id": 8,
+      "company_id": 2,
+      "first_name": "Jay",
+      "last_name": "Rodrigues",
+      "title": null,
+      "bio": null,
+      "about_me": null,
+      "company_name": "Development Account",
+      "twitter": null,
+      "google": null,
+      "facebook": null,
+      "instagram": null,
+      "avatar_file": "http://awesome.dev/engageitapimoncton/public/uploads/profile_pics/52e601c07640ffae2626e516a0489b00.jpg",
+      "phone": null,
+      "url": null,
+      "session_data": [
         {
-            "id": 1,
-            "company_id": null,
-            "first_name": "Douglas",
-            "last_name": "Alvarez",
-            "title": null,
-            "bio": null,
-            "about_me": null,
-            "company_name": null,
-            "twitter": null,
-            "google": null,
-            "facebook": null,
-            "instagram": null,
-            "avatar_file": "",
-            "phone": null,
-            "url": null
+          "title": "Test sessions 2",
+          "abstract": "Little info about session",
+          "location": "center hall",
+          "session_date": "2017-03-09",
+          "start_time": "00:00:00"
         },
         {
-            "id": 2,
-            "company_id": null,
-            "first_name": "Claire",
-            "last_name": "Fowler",
-            "title": null,
-            "bio": null,
-            "about_me": null,
-            "company_name": null,
-            "twitter": null,
-            "google": null,
-            "facebook": null,
-            "instagram": null,
-            "avatar_file": "",
-            "phone": "111-111-1111",
-            "url": null
+          "title": "Test sessions 2",
+          "abstract": "Little info about session",
+          "location": "center hall",
+          "session_date": "2017-03-09",
+          "start_time": "02:08:00"
         }
-    ]
+      ]
+    }
+  ]
 }
 ```
 

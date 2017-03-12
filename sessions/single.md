@@ -37,18 +37,25 @@ Record found
   "status_code": 200,
   "data": {
     "id": 1,
-    "title": "Test sessions",
-    "survey_url": null,
-    "abstract": "",
-    "track_title": null,
-    "location": "",
+    "title": "Test sessions 2",
+    "survey_url": "https://github.com",
+    "abstract": "Little info about session",
+    "track_title": "Marketing update",
+    "location": "center hall",
     "attachments": "",
-    "session_date": "0000-00-00",
+    "session_date": "2017-03-09",
     "start_time": "00:00:00",
-    "speaker_id": null,
-    "speaker_name": null,
-    "speaker_picture": null,
-    "speaker_company": null
+    "speaker_id": 8,
+    "speaker_data": [
+      {
+        "user_id": 8,
+        "first_name": "Jay",
+        "last_name": "Rodrigues",
+        "email": "jay.rodrigues99@gmail.com",
+        "avatar_file": "http://awesome.dev/engageitapimoncton/public/uploads/profile_pics/52e601c07640ffae2626e516a0489b00.jpg",
+        "company_name": null
+      }
+    ]
   }
 }
 ```
