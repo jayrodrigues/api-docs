@@ -35,61 +35,64 @@ curl -X GET "https://api.engageitapp.com/v1/monctonhomeshow2017/auth/users?token
   "message": "Data found",
   "status_code": 200,
   "data": {
-    "id": 172,
-    "tieit_user_id": 224,
-    "email": "test@test.com",
-    "password": "$2y$08$0q0z6f8XkVoxFwGj1AnD4elTY/aASHAktrtuqM6AF96DywMcSuVWG",
-    "company_id": 168,
+    "id": 10,
+    "tieit_user_id": null,
+    "email": "hasanmehdi89@gmail.com",
+    "password": null,
+    "company_id": null,
     "active": 1,
-    "first_name": "John Smith",
-    "last_name": "",
-    "city": "Toronto",
-    "state": "Ontario",
-    "country": "Canada",
-    "phone": "",
-    "avatar_file": "http://s3.amazon.com/uploads/profile_pics/b6e541f13ca5830373f0ad2681a41ba7.png",
-    "zip": "",
-    "address": "123 Sample Dr",
+    "first_name": null,
+    "last_name": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "phone": null,
+    "avatar_file": "",
+    "zip": null,
+    "address": null,
     "url": null,
-    "about_me": "",
-    "position": "Manager",
-    "company_name": "Apple",
-    "company_email": "est@test.com",
-    "company_address": "123 Sample Dr",
+    "about_me": null,
+    "position": null,
+    "company_name": null,
+    "company_email": null,
+    "company_address": null,
     "company_description": null,
-    "company_city": "Toronto",
-    "company_state": "Ontario",
-    "company_country": "Canada",
-    "company_zip": "",
-    "company_tel": "",
-    "company_website": "",
+    "company_city": null,
+    "company_state": null,
+    "company_country": null,
+    "company_zip": null,
+    "company_tel": null,
+    "company_website": null,
+    "is_exhibitor": 1,
+    "lead_retrieval": 0,
+    "exhibitor_id": 10,
     "social_media": [
       {
-        "icon": "http://s3.amazon.com/uploads/social-media/png/facebook-logo.png",
+        "icon": "http://awesome.dev/engageitapimoncton/public/uploads/social-media/png/facebook-logo.png",
         "link": null
       },
       {
-        "icon": "http://s3.amazon.com/uploads/social-media/png/twitter-logo.png",
+        "icon": "http://awesome.dev/engageitapimoncton/public/uploads/social-media/png/twitter-logo.png",
         "link": null
       },
       {
-        "icon": "http://s3.amazon.com/uploads/social-media/png/google-logo.png",
+        "icon": "http://awesome.dev/engageitapimoncton/public/uploads/social-media/png/google-logo.png",
         "link": null
       },
       {
-        "icon": "http://s3.amazon.com/uploads/social-media/png/youtube-logo.png",
+        "icon": "http://awesome.dev/engageitapimoncton/public/uploads/social-media/png/youtube-logo.png",
         "link": null
       },
       {
-        "icon": "http://s3.amazon.com/uploads/social-media/png/pinterest-logo.png",
+        "icon": "http://awesome.dev/engageitapimoncton/public/uploads/social-media/png/pinterest-logo.png",
         "link": null
       },
       {
-        "icon": "http://s3.amazon.com/uploads/social-media/png/instagram-logo.png",
+        "icon": "http://awesome.dev/engageitapimoncton/public/uploads/social-media/png/instagram-logo.png",
         "link": null
       },
       {
-        "icon": "http://s3.amazon.com/uploads/social-media/png/linkedin-logo.png",
+        "icon": "http://awesome.dev/engageitapimoncton/public/uploads/social-media/png/linkedin-logo.png",
         "link": null
       }
     ]
