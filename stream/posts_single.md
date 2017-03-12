@@ -38,10 +38,10 @@ Record found
   "status_code": 200,
   "data": {
     "id": 1,
-    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "content": "new update",
     "picture": "",
     "post_by": 8,
-    "date_time": 1489252612,
+    "date_time": 1489264319,
     "status": 1,
     "created_at": "2017-03-11 17:06:57",
     "updated_at": null,
@@ -49,17 +49,57 @@ Record found
     "button_url": null,
     "image_url": null,
     "company_id": null,
-    "is_moderated": 0,
+    "is_moderated": 1,
     "post_type": 1,
-    "avatar_file": "",
-    "first_name": null,
-    "last_name": null,
+    "avatar_file": "http://awesome.dev/engageitapimoncton/public/uploads/profile_pics/52e601c07640ffae2626e516a0489b00.jpg",
+    "first_name": "Jay",
+    "last_name": "Rodrigues",
     "company_name": null,
-    "like": [],
-    "comment": [],
-    "is_like": 0,
-    "total_like": 0,
-    "total_comment": 0
+    "like": [
+      {
+        "id": 3,
+        "post_id": 1,
+        "user_id": 8,
+        "date_time": "0000-00-00 00:00:00",
+        "status": 1,
+        "created_at": null,
+        "updated_at": null,
+        "first_name": "Jay",
+        "last_name": "Rodrigues",
+        "avatar_file": "http://awesome.dev/engageitapimoncton/public/uploads/profile_pics/52e601c07640ffae2626e516a0489b00.jpg"
+      }
+    ],
+    "comment": [
+      {
+        "id": 4,
+        "post_id": 1,
+        "user_id": 8,
+        "comment": "This is first comment",
+        "date_time": "0000-00-00 00:00:00",
+        "status": 1,
+        "created_at": "2017-03-12 13:08:35",
+        "updated_at": "2017-03-12 13:08:35",
+        "first_name": "Jay",
+        "last_name": "Rodrigues",
+        "avatar_file": "http://awesome.dev/engageitapimoncton/public/uploads/profile_pics/52e601c07640ffae2626e516a0489b00.jpg"
+      },
+      {
+        "id": 3,
+        "post_id": 1,
+        "user_id": 8,
+        "comment": "new update",
+        "date_time": "0000-00-00 00:00:00",
+        "status": 1,
+        "created_at": "2017-03-11 20:24:51",
+        "updated_at": "2017-03-11 20:29:25",
+        "first_name": "Jay",
+        "last_name": "Rodrigues",
+        "avatar_file": "http://awesome.dev/engageitapimoncton/public/uploads/profile_pics/52e601c07640ffae2626e516a0489b00.jpg"
+      }
+    ],
+    "is_like": 1,
+    "total_like": 1,
+    "total_comment": 2
   }
 }
 ```

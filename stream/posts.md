@@ -5,7 +5,7 @@ This endpoint is to be retrieve a post details with total like comment count.
 ## Resource
 
 ```
-GET /post_details/{post_id}
+GET /posts/{user_id}
 ```
 
 ## Parameters
@@ -21,7 +21,7 @@ post_id       | int  | yes      | ID of the post.
 --------------------------------------------------------------------------------
 
 ```curl
-curl 'http://api.monctonhomeshow.engageitapp.com/v1/post_details/1'
+curl 'http://api.monctonhomeshow.engageitapp.com/v1/posts/1'
 ```
 
 ### Response
@@ -35,31 +35,33 @@ Record found
 {
   "message": "Data found",
   "status_code": 200,
-  "data": {
-    "id": 1,
-    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    "picture": "",
-    "post_by": 8,
-    "date_time": 0,
-    "status": 1,
-    "created_at": "2017-03-11 17:06:57",
-    "updated_at": null,
-    "button_text": "Check this out",
-    "button_url": null,
-    "image_url": null,
-    "company_id": null,
-    "is_moderated": 0,
-    "post_type": 1,
-    "avatar_file": "",
-    "first_name": null,
-    "last_name": null,
-    "company_name": null,
-    "like": [],
-    "comment": [],
-    "is_like": 0,
-    "total_like": 0,
-    "total_comment": 0
-  }
+  "data": [
+    {
+      "id": 1,
+      "content": "new update",
+      "picture": "",
+      "post_by": 8,
+      "date_time": 1489264319,
+      "status": 1,
+      "created_at": "2017-03-11 17:06:57",
+      "updated_at": null,
+      "button_text": "Check this out",
+      "button_url": null,
+      "image_url": null,
+      "company_id": null,
+      "is_moderated": 1,
+      "post_type": 1,
+      "avatar_file": "http://awesome.dev/engageitapimoncton/public/uploads/profile_pics/52e601c07640ffae2626e516a0489b00.jpg",
+      "first_name": "Jay",
+      "last_name": "Rodrigues",
+      "company_name": "Development Account",
+      "sponsor_post_company_name": null,
+      "sponsor_company_logo": null,
+      "total_like": 1,
+      "total_comment": 2,
+      "is_like": 1
+    }
+  ]
 }
 ```
 

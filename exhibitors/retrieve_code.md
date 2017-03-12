@@ -5,7 +5,7 @@ This endpoint is to be retrieve special login code by email.
 ## Resource
 
 ```
-GET /exhibitors/retrieve_code/{email}
+GET /exhibitors/verify/{email}
 ```
 
 ## Parameters

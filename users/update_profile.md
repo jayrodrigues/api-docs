@@ -5,7 +5,7 @@ This endpoint is to be used to create new user profile (Without login details).
 ## Resource
 
 ```
-PUT /users/profile/{user_id}
+PUT /users/{user_id}
 ```
 
 ## Parameters

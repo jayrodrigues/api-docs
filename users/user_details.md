@@ -5,7 +5,7 @@ This endpoint will retrieve information about a user.
 ## Resource
 
 ```
-GET /auth/users/{user_id}
+GET /users/{user_id}
 ```
 
 ## Parameters

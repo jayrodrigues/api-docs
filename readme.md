@@ -29,8 +29,8 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 ### Users
 
 - [**`POST`** /users/profile/{unique_device_id}](users/create_profile.md)
-- [**`PUT`** /users/profile/{user_id}](users/update_profile.md)
-- [**`GET`** /auth/users/{user_id}](users/user_details.md)
+- [**`PUT`** /users/{user_id}](users/update_profile.md)
+- [**`GET`** /users/{user_id}](users/user_details.md)
 
 ### Contacts
 
@@ -74,6 +74,6 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 - [**`GET`** /exhibitors](/exhibitors/all.md)
 - [**`GET`** /exhibitors/{id}](/exhibitors/single.md)
-- [**`GET`** /exhibitors/retrieve_code/{email}](/exhibitors/retrieve_code.md)
+- [**`GET`** /exhibitors/verify/{email}](/exhibitors/retrieve_code.md)
 - [**`POST`** /exhibitors](exhibitors/create.md)
 - [**`POST`** /exhibitors/{id}](exhibitors/update.md)
