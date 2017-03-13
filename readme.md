@@ -86,3 +86,11 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`GET`** /exhibitors/verify/{email}/{access_code}](/exhibitors/verify_code.md)
 - [**`POST`** /exhibitors](exhibitors/create.md)
 - [**`POST`** /exhibitors/{id}](exhibitors/update.md)
+
+### Ads
+
+- [**`GET`** /ads](/ads/all.md)
+- [**`GET`** /ads/{ads_type}](/ads/current.md)
+- [**`GET`** /ads/{ads_type}/{ads_id}](/ads/setCurrent.md)
+- [**`POST`** /ads](/ads/create.md)
+- [**`POST`** /ads/{ads_id}](/ads/update.md)
