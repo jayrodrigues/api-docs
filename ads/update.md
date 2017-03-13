@@ -83,3 +83,10 @@ curl -X POST 'http://api.monctonhomeshow.engageitapp.com/v1/ads/4'
   "status_code": 400,
 }
 ```
+
+```json
+{
+  "message": "The token could not be parsed from the request",
+  "status_code": 500,
+}
+```

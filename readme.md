@@ -94,3 +94,6 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`GET`** /ads/{ads_type}/{ads_id}](/ads/setCurrent.md)
 - [**`POST`** /ads](/ads/create.md)
 - [**`POST`** /ads/{ads_id}](/ads/update.md)
+- [**`GET`** /ads/tracking/{ads_id}/{activity_type}](/ads/tracking.md)
+- [**`GET`** /ads/tracking/{ads_id}/{activity_type}/{user_id}](/ads/tracking.md)
+- [**`GET`** /ads_tracking_details/{ads_id}](/ads/tracking_details.md)
