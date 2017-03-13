@@ -37,7 +37,7 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 - [**`GET`** /contacts/{user_id}/{email}](contacts/get_contact_details.md)
 - [**`POST`** /contacts/{id}](contacts/update.md)
-- [**`GET`** /link_contact/{user_id}/{email}](contacts/link_contact.md)
+- [**`GET`** /link_contact/{user_id}/{user_id}](contacts/link_contact.md)
 
 ### Attendees
 
@@ -97,3 +97,10 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`GET`** /ads/tracking/{ads_id}/{activity_type}](/ads/tracking.md)
 - [**`GET`** /ads/tracking/{ads_id}/{activity_type}/{user_id}](/ads/tracking.md)
 - [**`GET`** /ads_tracking_details/{ads_id}](/ads/tracking_details.md)
+
+### Groups
+
+- [**`GET`** /groups/{user_id}](groups/all.md)
+- [**`GET`** /groups/{user_id}/{email}](groups/byemail.md)
+- [**`POST`** /add_contact_to_group](groups/add_contact_to_group.md)
+- [**`POST`** /remove_contact_from_group](groups/remove_contact_from_group.md)

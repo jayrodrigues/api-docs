@@ -2,12 +2,11 @@
 
 This endpoint will link a contact with given user and will sync that to tieit.
 
-required login
 
 ## Resource
 
 ```
-GET /link_contact/{email}
+GET /link_contact/{email}/{user_id}
 ```
 
 ## Parameters
