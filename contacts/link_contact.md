@@ -35,7 +35,10 @@ curl ""
 **Status-Code:** `200 OK`
 
 ```json
-
+{
+  "message": "Contact linked successfully, but unable to sync with tieit",
+  "status_code": 200,
+}
 ```
 
 ### Error Responses

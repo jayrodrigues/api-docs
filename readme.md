@@ -37,10 +37,12 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 - [**`GET`** /contacts/{user_id}/{email}](contacts/get_contact_details.md)
 - [**`POST`** /contacts/{id}](contacts/update.md)
-- [**`GET`** /link_contact/{user_id}/{email}](contacts/update.md)
-{
-  "message": "Contact linked successfully, but unable to sync with tieit",
-  "status_code": 200,
+- [**`GET`** /link_contact/{user_id}/{email}](contacts/link_contact.md)
+
+### Attendees
+
+- [**`GET`** /attendees/{user_id}](attendees/all.md)
+- [**`GET`** /attendees/details/{email}](attendees/single.md)
 
 ### Authentication
 
