@@ -39,6 +39,7 @@ about_me      | text   | no       |
 bio           | text   | no       |
 position      | string | no       |
 is_speaker    | int    | no       | 0=no,1=yes. default 0. set value as 1 to mark as speaker
+is_public     | int    | no       | 0=no,1=yes. default 1. if public will return all data in user details response
 user_type     | int    | no       | 1=admin,2=exhibitor,3=attendee. default 3
 
 ## Example

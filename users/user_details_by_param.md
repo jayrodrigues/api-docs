@@ -39,7 +39,6 @@ curl -X GET "http://awesome.dev/engageitapimoncton/public/api/v1/users/f1af51819
     "id": 8,
     "tieit_user_id": 224,
     "email": "jay.rodrigues99@gmail.com",
-    "password": "$2y$08$0q0z6f8XkVoxFwGj1AnD4elTY/aASHAktrtuqM6AF96DywMcSuVWG",
     "company_id": 2,
     "active": 1,
     "first_name": "Jay",

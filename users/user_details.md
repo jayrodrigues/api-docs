@@ -28,6 +28,8 @@ curl -X GET "https://api.engageitapp.com/v1/monctonhomeshow2017/auth/users?token
 
 --------------------------------------------------------------------------------
 
+If is_public = 1
+
 **Status-Code:** `200 OK`
 
 ```json
@@ -50,6 +52,7 @@ curl -X GET "https://api.engageitapp.com/v1/monctonhomeshow2017/auth/users?token
     "avatar_file": "",
     "zip": null,
     "address": null,
+    "is_public": 1,
     "url": null,
     "about_me": null,
     "position": null,
@@ -96,6 +99,25 @@ curl -X GET "https://api.engageitapp.com/v1/monctonhomeshow2017/auth/users?token
         "link": null
       }
     ]
+  }
+}
+```
+
+If is_public = 0
+
+**Status-Code:** `200 OK`
+
+```json
+{
+  "message": "Data found",
+  "status_code": 200,
+  "data": {
+    "first_name": "Jay",
+    "last_name": "Rodrigues",
+    "company_name": "Development Account",
+    "company_id": 2,
+    "id": 8,
+    "is_public": 0
   }
 }
 ```
