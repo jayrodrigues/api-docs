@@ -5,14 +5,14 @@ This endpoint is to be retrieve a list of all sessions.
 ## Resource
 
 ```
-GET /sessions
+GET /{lang}/sessions
 ```
 
 ## Parameters
 
 URI Parameter | Type | Required | Description
 :------------ | :--- | :------- | :----------
-              |      |
+lang          | string     | yes | en/ar etc
 
 ## Example
 
@@ -21,7 +21,7 @@ URI Parameter | Type | Required | Description
 --------------------------------------------------------------------------------
 
 ```curl
-curl 'http://api.monctonhomeshow.engageitapp.com/v1/sessions'
+curl 'http://api.monctonhomeshow.engageitapp.com/v1/en/sessions'
 ```
 
 ### Response
@@ -41,6 +41,7 @@ Record found
       "title": "Test sessions 2",
       "survey_url": "https://github.com",
       "abstract": "Little info about session",
+      "lang": "en",
       "track_id": 1,
       "speaker_id": 8,
       "duration": 0,

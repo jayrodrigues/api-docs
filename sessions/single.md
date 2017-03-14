@@ -5,7 +5,7 @@ This endpoint is to be retrieve one session details by session id.
 ## Resource
 
 ```
-GET /sessions/{id}
+GET /{lang}/sessions/{id}
 ```
 
 ## Parameters
@@ -13,6 +13,7 @@ GET /sessions/{id}
 URI Parameter | Type | Required | Description
 :------------ | :--- | :------- | :----------
 id            | int  | yes      | ID of the session
+lang          | string     | yes | en/ar etc
 
 ## Example
 
@@ -21,7 +22,7 @@ id            | int  | yes      | ID of the session
 --------------------------------------------------------------------------------
 
 ```curl
-curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/sessions/1'
+curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/en/sessions/1'
 ```
 
 ### Response
@@ -43,6 +44,7 @@ Record found
     "track_title": "Marketing update",
     "location": "center hall",
     "attachments": "",
+    "lang": "en",
     "session_date": "2017-03-09",
     "start_time": "00:00:00",
     "speaker_id": 8,

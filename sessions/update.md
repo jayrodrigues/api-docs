@@ -17,6 +17,7 @@ id            | int  | yes      | ID of the session
 POST Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :----------
 title         | string | yes      |
+lang         | string | yes      |
 speaker_id    | int    | yes      | Given ID Should exists as speaker
 track_id      | int    | no       | Tracks table id
 session_date  | date   | no       | 2017-03-09

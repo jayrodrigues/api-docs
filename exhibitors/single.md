@@ -13,6 +13,7 @@ GET /exhibitors/{id}
 URI Parameter | Type | Required | Description
 :------------ | :--- | :------- | :----------
 id            | int  | yes      | ID of the exhibitor
+lang          | string     | yes | en/ar etc
 
 ## Example
 
@@ -21,7 +22,7 @@ id            | int  | yes      | ID of the exhibitor
 --------------------------------------------------------------------------------
 
 ```curl
-curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/exhibitors/1'
+curl -X GET 'http://api.monctonhomeshow.engageitapp.com/v1/en/exhibitors/1'
 ```
 
 ### Response
@@ -36,19 +37,19 @@ Record found
   "message": "Data found",
   "status_code": 200,
   "data": {
-    "id": 9,
+    "id": 10,
     "company_id": 52,
-    "description": null,
-    "sponsor_level": 3,
+    "sponsor_level": null,
     "location": null,
     "promotional_image": "",
     "attachments": "",
-    "lead_retrieval": 1,
+    "lead_retrieval": 0,
     "mobile_app_sponsor": 0,
     "is_exhibitor": 1,
-    "access_code": "44a24",
-    "user_id": 8,
+    "access_code": "f9a2a",
+    "user_id": 10,
     "date_time": "1970-01-01 00:00:00",
+    "description": "Details in en",
     "sm_twitter": null,
     "sm_facebook": null,
     "sm_google": null,

@@ -14,6 +14,7 @@ POST /exhibitors
 POST Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :----------
 email         | string | yes      |
+lang         | string | yes      | en/es etc
 lead_retrieval| int    | yes      | 0-no, 1-yes
 mobile_app_sponsor| int| yes      | 0-no, 1-yes
 promotional_image| file | no      |

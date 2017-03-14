@@ -14,8 +14,8 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 ### Sessions
 
-- [**`GET`** /sessions](/sessions/all.md)
-- [**`GET`** /sessions/{id}](sessions/single.md)
+- [**`GET`** /{lang}/sessions](/sessions/all.md)
+- [**`GET`** /{lang}/sessions/{id}](sessions/single.md)
 - [**`POST`** /sessions](sessions/create.md)
 - [**`POST`** /sessions/{id}](sessions/update.md)
 
@@ -80,8 +80,8 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 ### Exhibitors
 
-- [**`GET`** /exhibitors](/exhibitors/all.md)
-- [**`GET`** /exhibitors/{id}](/exhibitors/single.md)
+- [**`GET`** /{lang}/exhibitors](/exhibitors/all.md)
+- [**`GET`** /{lang}/exhibitors/{id}](/exhibitors/single.md)
 - [**`GET`** /exhibitors/verify/{email}](/exhibitors/retrieve_code.md)
 - [**`GET`** /exhibitors/verify/{email}/{access_code}](/exhibitors/verify_code.md)
 - [**`POST`** /exhibitors](exhibitors/create.md)
