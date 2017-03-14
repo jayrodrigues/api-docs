@@ -25,7 +25,7 @@ button_text   | string | no       |
 button_url    | string | no       |
 image_url     | string | no       |
 company_id    | int    | no       |
-post_type     | int    | no       | 1-normal, 2=sponsor. default 1
+post_type     | int    | no       | 1-normal, 2=sponsor. default 1. Only admin can create post type 2 posts 
 
 ## Example
 

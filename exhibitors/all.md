@@ -108,7 +108,8 @@ Record Not found
 ```json
 {
   "message": "No record found",
-  "status_code": 200
+  "status_code": 200,
+  "data": []
 }
 ```
 ### Error Responses

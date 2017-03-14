@@ -2,6 +2,7 @@
 
 This endpoint is to be retrieve all tracking of details of an ads
 
+login required and only admin can see the tracking details
 ## Resource
 
 ```

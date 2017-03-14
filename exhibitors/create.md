@@ -21,7 +21,7 @@ promotional_image| file | no      |
 attachments   | file   | no       |
 is_exhibitor  | int    | no       |
 company_id    | int    | no       |
-description   | string | no       |
+description   | text | yes       |
 sponsor_level | int    | no       | 1 Platinum, 2 Emerald, 3 Gold, 4 Silver, 5 Pearl, 6 Bronze
 location      | string | no       |
 

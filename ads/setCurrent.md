@@ -2,6 +2,8 @@
 
 This endpoint is to set current active ads by ads type and ads id.
 
+login required and only admin can perform this
+
 ## Resource
 
 ```
@@ -68,6 +70,10 @@ Record Not found
 
 --------------------------------------------------------------------------------
 
-**Status-Code:** ``
-
-`json`
+```json
+{
+  "message": "Only admin can perform this operation",
+  "status_code": 400,
+  "data": null
+}
+```

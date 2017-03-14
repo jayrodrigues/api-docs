@@ -2,7 +2,7 @@
 
 This endpoint is to create new Ads of any type
 
-Login required
+Login required and only admin can create ads
 
 ## Resource
 
@@ -90,5 +90,13 @@ curl -X POST 'http://api.monctonhomeshow.engageitapp.com/v1/ads'
 {
   "message": "The token could not be parsed from the request",
   "status_code": 500,
+}
+```
+
+```json
+{
+  "message": "Only admin can perform this operation",
+  "status_code": 400,
+  "data": null
 }
 ```
