@@ -16,7 +16,7 @@ POST Parameter | Type   | Required | Description
 email         | string | yes      |
 lang         | string | yes      | en/es etc
 lead_retrieval| int    | yes      | 0-no, 1-yes
-mobile_app_sponsor| int| yes      | 0-no, 1-yes
+mobile_app_sponsor| int| no      | 0-no, 1-yes default 0
 promotional_image| file | no      |
 attachments   | file   | no       |
 is_exhibitor  | int    | no       |
@@ -47,8 +47,8 @@ Created successfully
   "message": "Created successfully",
   "status_code": 200,
   "data": {
-    "promotional_image": "",
-    "attachments": "",
+    "promotional_image": null,
+    "attachments": null,
     "date_time": 1489270595,
     "is_exhibitor": 1,
     "company_id": null,

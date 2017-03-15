@@ -14,8 +14,8 @@ POST /ads/{ads_id}
 
 POST Parameter | Type | Required | Description
 :------------ | :--- | :------- | :----------
-name      | string  | yes      |
-type      | int  | yes      | 1-menu,2-banner,3-splash
+name      | string  | no      |
+type      | int  | no      | 1-menu,2-banner,3-splash
 image      | file  | no      |
 image_url      | string  | no      |
 button_text      | string  | no      |
