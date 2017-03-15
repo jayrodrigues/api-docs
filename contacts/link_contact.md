@@ -6,7 +6,7 @@ This endpoint will link a contact with given user and will sync that to tieit.
 ## Resource
 
 ```
-GET /link_contact/{email}
+GET /contacts/connect/{email}
 ```
 
 ## Parameters

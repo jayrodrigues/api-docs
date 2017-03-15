@@ -3,7 +3,7 @@
 ## Resource
 
 ```
-POST /remove_contact_from_group
+POST /groups/remove
 ```
 
 ## Parameters

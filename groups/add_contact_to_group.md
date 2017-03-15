@@ -1,11 +1,11 @@
 # Add Contact into a group and sync back to tieit
 
-Add already linked contact into one or multiple group 
+Add already linked contact into one or multiple group
 
 ## Resource
 
 ```
-POST /add_contact_to_group
+POST /groups/add
 ```
 
 ## Parameters
