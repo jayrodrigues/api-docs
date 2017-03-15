@@ -1,5 +1,7 @@
 # Add Contact into a group and sync back to tieit
 
+Add already linked contact into one or multiple group 
+
 ## Resource
 
 ```
@@ -29,7 +31,18 @@ curl ''
 **Status-Code:** `200 OK`
 
 ```json
-
+{
+  "message": "Created successfully",
+  "status_code": 200,
+  "data": [
+    {
+      "contact_id": 12,
+      "group_id": "32",
+      "added_date": "2017-03-15 15-47-25",
+      "id": 5
+    }
+  ]
+}
 ```
 
 ### Error Responses

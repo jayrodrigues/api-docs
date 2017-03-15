@@ -1,4 +1,4 @@
-# Add Contact into a group and sync back to tieit
+# Remove Contact from a group and sync back to tieit
 
 ## Resource
 
@@ -29,7 +29,11 @@ curl ''
 **Status-Code:** `200 OK`
 
 ```json
-
+{
+  "message": "Removed contact from group successfully",
+  "status_code": "200",
+  "data": null
+}
 ```
 
 ### Error Responses
@@ -39,5 +43,8 @@ curl ''
 **Status-Code:** ``
 
 ```json
-
+{
+  "message": "No data found to remove",
+  "status_code": 400,
+}
 ```
