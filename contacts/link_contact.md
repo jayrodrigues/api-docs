@@ -6,7 +6,7 @@ This endpoint will link a contact with given user and will sync that to tieit.
 ## Resource
 
 ```
-GET /link_contact/{email}/{user_id}
+GET /link_contact/{email}
 ```
 
 ## Parameters
@@ -35,7 +35,33 @@ curl ""
 
 ```json
 {
+  "message": "Linked with contact successfully",
+  "status_code": 200,
+  "data": {
+    "user_id": 8,
+    "contact_email": "hasanmehdi89+5@gmail.com",
+    "id": 15
+  }
+}
+```
+
+```json
+{
   "message": "Contact linked successfully, but unable to sync with tieit",
+  "status_code": 200,
+}
+```
+
+```json
+{
+  "message": "Contact linked successfully, already have contact with this email in tieit",
+  "status_code": 200,
+}
+```
+
+```json
+{
+  "message": "The contact is already linked with the user",
   "status_code": 200,
 }
 ```

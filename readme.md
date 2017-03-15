@@ -37,7 +37,7 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 - [**`GET`** /contacts/{user_id}/{email}](contacts/get_contact_details.md)
 - [**`POST`** /contacts/{id}](contacts/update.md)
-- [**`GET`** /link_contact/{user_id}/{user_id}](contacts/link_contact.md)
+- [**`GET`** /link_contact/{email}](contacts/link_contact.md)
 
 ### Attendees
 
