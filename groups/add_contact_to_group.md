@@ -13,7 +13,7 @@ POST /groups/add
 URI Parameter | Type | Required | Description
 :------------ | :--- | :------- | :----------
 email       | string     | yes | who you want to add to group
-group_id       | int     | yes
+group_id       | int     | yes | can be passed multiple group id with , like 20,21,22
 
 ## Example
 
@@ -36,10 +36,22 @@ curl ''
   "status_code": 200,
   "data": [
     {
-      "contact_id": 12,
-      "group_id": "32",
-      "added_date": "2017-03-15 15-47-25",
-      "id": 5
+      "contact_id": 16,
+      "group_id": "20",
+      "added_date": "2017-03-22 16-34-19",
+      "id": 15
+    },
+    {
+      "contact_id": 16,
+      "group_id": "21",
+      "added_date": "2017-03-22 16-34-21",
+      "id": 16
+    },
+    {
+      "contact_id": 16,
+      "group_id": "22",
+      "added_date": "2017-03-22 16-34-22",
+      "id": 17
     }
   ]
 }
@@ -53,7 +65,14 @@ curl ''
 
 ```json
 {
-  "message": "Contact already exists with this group",
-  "status_code": 200,
+  "message": "Contact already exists with these groups[\"20\",\"21\",\"22\"]",
+  "status_code": 400,
+}
+```
+
+```json
+{
+  "message": "Your given group id 5646 is not exits",
+  "status_code": 422,
 }
 ```
