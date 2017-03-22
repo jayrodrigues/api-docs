@@ -39,7 +39,12 @@ curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -d 'email=test
 {
   "message": "Login success",
   "status_code": 200,
-  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjE3MiwiaXNzIjoiaHR0cDpcL1wvY29uZi1zdGcucHJvaHViLmlvXC9hcGlcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNDg4NjU3MzczLCJleHAiOjE0ODkwODkzNzMsIm5iZiI6MTQ4ODY1NzM3MywianRpIjoiMDdhNzk4MzYyZGUzMmY3MzdjMWFlNDA4NzU0MTY1ZjkifQ.thIrXw8aPwFjw4iULdSudcDcqkuwCxxLrygsPOGrDcY"
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjgsImlzcyI6Imh0dHA6XC9cL2F3ZXNvbWUuZGV2XC9lbmdhZ2VpdGFwaW1vbmN0b25cL3B1YmxpY1wvYXBpXC92MVwvYXV0aFwvbG9naW4iLCJpYXQiOjE0OTAxOTc3MTAsImV4cCI6MTQ5MDYyOTcxMCwibmJmIjoxNDkwMTk3NzEwLCJqdGkiOiI4MDFhY2RmOWE1YmJhY2EzMDg2ZTE5ODU2ZDEyOGRhNSJ9.C_6jimcE4jZwFGoY4S_li4I22DRhOgX-NUJ2Cb1S80g",
+  "data": {
+    "user_id": 8,
+    "user_type": 2,
+    "lead_retrieval": 1
+  }
 }
 ```
 

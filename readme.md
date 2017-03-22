@@ -70,6 +70,8 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 - [**`GET`** /posts](/stream/posts.md)
 - [**`GET`** /posts/{user_id}](/stream/posts_user.md)
+- [**`GET`** /admin/posts](/stream/admin_posts.md)
+- [**`GET`** /admin/posts/{user_id}](/stream/admin_posts.md)
 - [**`GET`** /posts/{user_id}/{post_id}](stream/posts_single.md)
 - [**`POST`** /posts/{user_id}](stream/posts_create.md)
 - [**`PUT`** /posts/{post_id}](stream/posts_update.md)
