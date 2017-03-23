@@ -26,6 +26,13 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`POST`** /speakers](speakers/create.md)
 - [**`POST`** /speakers/{id}](speakers/update.md)
 
+### Notes
+
+- [**`GET`** /notes](/notes/all.md)
+- [**`GET`** /notes/{note_id}](notes/single.md)
+- [**`POST`** /notes](notes/create.md)
+- [**`POST`** /notes/{id}](notes/update.md)
+
 ### Users
 
 - [**`POST`** /users/profile/{unique_device_id}](users/create_profile.md)

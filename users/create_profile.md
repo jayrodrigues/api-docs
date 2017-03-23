@@ -64,12 +64,8 @@ Created successfully
   "message": "Created successfully",
   "status_code": 200,
   "data": {
-    "email": "hasanmehdi89+1@gmail.com",
-    "avatar_file": "",
-    "id": 8
-    ....
-  },
-    "profile_rating": 30
+      "profile_rating": 30
+  }
 }
 ```
 
