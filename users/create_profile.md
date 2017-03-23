@@ -64,7 +64,9 @@ Created successfully
   "message": "Created successfully",
   "status_code": 200,
   "data": {
-      "profile_rating": 30
+    "email": "a@gmail.com",
+    "id": 12,
+    "profile_rating": 30
   }
 }
 ```
