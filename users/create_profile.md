@@ -68,7 +68,8 @@ Created successfully
     "avatar_file": "",
     "id": 8
     ....
-  }
+  },
+    "profile_rating": 30
 }
 ```
 

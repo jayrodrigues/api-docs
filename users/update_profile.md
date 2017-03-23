@@ -5,7 +5,7 @@ This endpoint is to be used to create new user profile (Without login details).
 ## Resource
 
 ```
-POST /users/update/{user_id}
+POST /users/{user_id}
 ```
 
 ## Parameters
@@ -62,7 +62,10 @@ Created successfully
 ```json
 {
   "message": "Your changes have been updated successfully",
-  "status_code": 200
+  "status_code": 200,
+  "data": {
+    "profile_rating": 100
+  }
 }
 ```
 
