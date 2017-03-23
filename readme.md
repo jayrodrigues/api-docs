@@ -29,7 +29,7 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 ### Users
 
 - [**`POST`** /users/profile/{unique_device_id}](users/create_profile.md)
-- [**`PUT`** /users/{user_id}](users/update_profile.md)
+- [**`POST`** /users/update/{user_id}](users/update_profile.md)
 - [**`GET`** /users/{user_id}](users/user_details.md)
 - [**`GET`** /users/{unique_device_id}/{email}](users/user_details_by_param.md)
 
