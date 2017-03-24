@@ -5,14 +5,14 @@ This endpoint is to be used to get all notes of a User
 ## Resource
 
 ```
-GET /users/notes/{user_id}
+GET /users/notes/{owner_id}
 ```
 
 ## Parameters
 
 URI Parameter | Type | Required | Description
 :------------ | :--- | :------- | :----------------
-user_id            | int  | yes      |
+owner_id            | int  | yes      | exhibitor user_id
 
 ## Example
 
@@ -39,6 +39,7 @@ curl -X GET "http://api.monctonhomeshow.engageitapp.com/v1/users/notes/1"
       "id": 1,
       "note": "Hello update",
       "user_id": 8,
+      "owner_id": 1,
       "type": 1,
       "created_at": "2017-03-23 12:51:33",
       "updated_at": "2017-03-23 12:51:33",

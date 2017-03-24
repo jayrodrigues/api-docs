@@ -2,6 +2,7 @@
 
 This endpoint is to be used to update a speaker entry.
 
+Login required
 ## Resource
 
 ```
@@ -17,8 +18,9 @@ note_id            | int  | yes      | ID of the note
 POST Parameter | Type   | Required | Description
 :------------ | :----- | :------- | :----------
 note | text | yes |
-type | int | yes |
 user_id | int | yes | current user crating this note
+is_active|int| no|
+
 
 
 ## Example
