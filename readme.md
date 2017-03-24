@@ -30,6 +30,7 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 
 - [**`GET`** /notes](/notes/all.md)
 - [**`GET`** /notes/{note_id}](notes/single.md)
+- [**`GET`** /users/notes/{user_id}](notes/user_single.md)
 - [**`POST`** /notes](notes/create.md)
 - [**`POST`** /notes/{id}](notes/update.md)
 
@@ -38,6 +39,7 @@ http://api.monctonhomeshow.engageitapp.com/v1/
 - [**`POST`** /users/profile/{unique_device_id}](users/create_profile.md)
 - [**`POST`** /users/{user_id}](users/update_profile.md)
 - [**`GET`** /users/{user_id}](users/user_details.md)
+- [**`GET`** /users/notes/{user_id}](notes/user_single.md)
 - [**`GET`** /users/{unique_device_id}/{email}](users/user_details_by_param.md)
 
 ### Contacts
